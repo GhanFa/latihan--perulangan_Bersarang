@@ -155,15 +155,15 @@ function segitigavalue2(baris) {
 }
 console.log(segitigavalue2(5));
 
-function segitigavalue3(size) {
-  for (let i = 0; i < size; i++) {
+function segitigavalue3(baris) {
+  for (let i = 0; i < baris; i++) {
     let value = i + 1;
     let s = value + " ";
     for (let j = 1; j <= i; j++) {
-      value += size - j;
+      value += baris - j;
       s += value + " ";
     }
-    return s;
+    console.log(s);
   }
 }
-console.log(segitigavalue3(5));
+segitigavalue3(5);
