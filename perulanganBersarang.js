@@ -56,9 +56,7 @@ console.log(segitigasiku4(5));
 
 function segitigasiku5(baris) {
   var pola = "";
-  let i;
-  let j;
-  let k;
+  let i, j, k;
 
   for (i = 0; i <= baris; i++) {
     for (j = baris / 2; j > i; j--) {
