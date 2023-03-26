@@ -54,6 +54,26 @@ function segitigasiku4(baris) {
 }
 console.log(segitigasiku4(5));
 
+function segitigasiku5(baris) {
+  var pola = "";
+  let i;
+  let j;
+  let k;
+
+  for (i = 0; i <= baris; i++) {
+    for (j = baris / 2; j > i; j--) {
+      pola += "*";
+    }
+    for (k = j; k <= i; k++) {
+      pola += "*";
+    }
+    pola += "\n";
+  }
+
+  return pola;
+}
+console.log(segitigasiku5(10));
+
 function segitiga(baris) {
   var pola = "";
   for (let i = 1; i <= baris; i++) {
